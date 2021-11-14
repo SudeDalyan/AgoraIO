@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+}
+h1,h4{
+    text-align: center;
+}
+#me{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#me video{
+    position: relative !important;
+}
+#remote-container div{
+    display: flex;
+    background-color:transparent !important; 
+}
+#remote-container{
+    background-color: transparent !important;
+}
+#remote-container video{
+    width: 40% !important;
+    height: auto;
+    position: relative !important;
+    background-color:transparent !important; 
+    object-fit: cover;
+}
